@@ -4,6 +4,8 @@ Test initial result of `glfwGetFrameBufferSize` and `glfwGetWindowContentScale` 
 
 `glfwPollEvents()` will correct that result, but `framebufferSizeCallback` is never invoked.
 
+https://github.com/glfw/glfw/issues/1968
+
 ### Platform
 
 * GLFW version:  glfw-3.3.4.bin.MACOS
