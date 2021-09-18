@@ -1,6 +1,6 @@
 ### Bug description
 
-Test initial result of `glfwGetFrameBufferSize(GLFWwindow *window, int* width, int* height)` is incorrect on MacOS, when I run on retina display but set `GLFW_COCOA_RETINA_FRAMEBUFFER` to `GLFW_FALSE`.
+Test initial result of `glfwGetFrameBufferSize` and `glfwGetWindowContentScale` is incorrect on MacOS, when I run on retina display but set `GLFW_COCOA_RETINA_FRAMEBUFFER` to `GLFW_FALSE`.
 
 `glfwPollEvents()` will correct that result, but `framebufferSizeCallback` is never invoked.
 
